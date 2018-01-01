@@ -1,4 +1,4 @@
-#Marcus Aurelius Quote Generator
+# Marcus Aurelius Quote Generator
 
 This is a small web application I created for my own practice as part of
 my on-going study with FreeCodeCamp.
