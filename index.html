@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Javascript dependencies and external js file -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="quote_generator.js"></script>
+    <title>Quote Generator</title>
+  </head>
+  <body>
+    <div class="container-fluid" id="main">
+      <div class="breaker">
+      </div>
+      <!-- Heading -->
+      <div class="row">
+        <div class="col-8">
+          <h1 class="text-left" id="title_1">The wise words of</h1>
+          <h1 class="text-center" id="title_2">Marcus Aurelius</h1>
+        </div>
+        <div class="col">
+          <img class="img-thumbnail pic" src="marcus-aurelius.jpg">
+        </div>
+      </div>
+      <div class="breaker">
+      </div>
+      <!-- Quatations -->
+      <div class="container">
+        <div class="jumbotron quote-area">
+          <p class="quotation-mark">"</p>
+          <p class=text-center id="quote">Confine yourself to the present</p>
+          <p class="text-right quotation-mark">"</p>
+          <div class="text-center"><button type="button" class="btn btn-outline-light" id="refresh">New Quote</button></div>
+        </div>
+        <div class="row share">
+          <div class="col">
+            <p class="text-left citation">Quotes courtesy of <a href="">Goodreads</a></p>
+          </div>
+          <div class="col-2">
+            <img src="tweet.png" class="img-thumbnail tweet">
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
